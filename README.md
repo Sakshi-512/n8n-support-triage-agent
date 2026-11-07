@@ -21,7 +21,11 @@ A small n8n workflow that reads customer support messages, answers the ones cove
 
 Webhook -> If row does not exist (duplicate check) -> Insert row (save id) -> Edit Fields (FAQ) -> Basic LLM Chain (AI) -> Parse AI answer (Code) -> Needs human? -> Log auto-drafted / Log needs review
 
-(Screenshot of the canvas: add `screenshots/canvas.png`)
+![Workflow canvas](screenshots/canvas.png)
+
+The log table after the test run:
+
+![Log table](screenshots/log-table.png)
 
 ## Design decisions
 
